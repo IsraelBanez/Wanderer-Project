@@ -1,0 +1,32 @@
+.header{
+    top: 0;
+    right: 0;
+    margin-top: 10px !important;
+    margin-right: 10px !important;
+    width: 80px !important;
+    height: 50px !important;
+    display: flex !important;
+    position: fixed !important;
+    justify-content: center;
+    align-items: center !important;
+    z-index: 4 !important; /* Higher z-index value to be in front of the canvas */
+    background-color: rgba(236, 236, 242, 0.46) !important;
+    border-radius: 5px !important;
+}
+
+.icon-button{
+    width: auto;
+    height: auto;
+    display: flex;
+    padding: 8px;
+    border-radius: 50px;
+    justify-content: center;
+    align-items: center;
+}
+.icon-button:hover {
+    background-color: rgba(0, 0, 0, 0.255);
+}
+img{
+    height: 20px;
+    width: 30px;
+}
